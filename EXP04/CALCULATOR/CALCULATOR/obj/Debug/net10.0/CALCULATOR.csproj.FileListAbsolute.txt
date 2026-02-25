@@ -1,0 +1,14 @@
+C:\Users\MANTHAN\source\repos\CALCULATOR\CALCULATOR\bin\Debug\net10.0\CALCULATOR.exe
+C:\Users\MANTHAN\source\repos\CALCULATOR\CALCULATOR\bin\Debug\net10.0\CALCULATOR.deps.json
+C:\Users\MANTHAN\source\repos\CALCULATOR\CALCULATOR\bin\Debug\net10.0\CALCULATOR.runtimeconfig.json
+C:\Users\MANTHAN\source\repos\CALCULATOR\CALCULATOR\bin\Debug\net10.0\CALCULATOR.dll
+C:\Users\MANTHAN\source\repos\CALCULATOR\CALCULATOR\bin\Debug\net10.0\CALCULATOR.pdb
+C:\Users\MANTHAN\source\repos\CALCULATOR\CALCULATOR\obj\Debug\net10.0\CALCULATOR.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MANTHAN\source\repos\CALCULATOR\CALCULATOR\obj\Debug\net10.0\CALCULATOR.AssemblyInfoInputs.cache
+C:\Users\MANTHAN\source\repos\CALCULATOR\CALCULATOR\obj\Debug\net10.0\CALCULATOR.AssemblyInfo.cs
+C:\Users\MANTHAN\source\repos\CALCULATOR\CALCULATOR\obj\Debug\net10.0\CALCULATOR.csproj.CoreCompileInputs.cache
+C:\Users\MANTHAN\source\repos\CALCULATOR\CALCULATOR\obj\Debug\net10.0\CALCULATOR.dll
+C:\Users\MANTHAN\source\repos\CALCULATOR\CALCULATOR\obj\Debug\net10.0\refint\CALCULATOR.dll
+C:\Users\MANTHAN\source\repos\CALCULATOR\CALCULATOR\obj\Debug\net10.0\CALCULATOR.pdb
+C:\Users\MANTHAN\source\repos\CALCULATOR\CALCULATOR\obj\Debug\net10.0\CALCULATOR.genruntimeconfig.cache
+C:\Users\MANTHAN\source\repos\CALCULATOR\CALCULATOR\obj\Debug\net10.0\ref\CALCULATOR.dll

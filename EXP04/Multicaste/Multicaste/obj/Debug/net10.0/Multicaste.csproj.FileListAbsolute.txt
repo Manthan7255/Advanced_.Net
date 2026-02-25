@@ -1,0 +1,14 @@
+C:\Users\MANTHAN\source\repos\Multicaste\Multicaste\bin\Debug\net10.0\Multicaste.exe
+C:\Users\MANTHAN\source\repos\Multicaste\Multicaste\bin\Debug\net10.0\Multicaste.deps.json
+C:\Users\MANTHAN\source\repos\Multicaste\Multicaste\bin\Debug\net10.0\Multicaste.runtimeconfig.json
+C:\Users\MANTHAN\source\repos\Multicaste\Multicaste\bin\Debug\net10.0\Multicaste.dll
+C:\Users\MANTHAN\source\repos\Multicaste\Multicaste\bin\Debug\net10.0\Multicaste.pdb
+C:\Users\MANTHAN\source\repos\Multicaste\Multicaste\obj\Debug\net10.0\Multicaste.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MANTHAN\source\repos\Multicaste\Multicaste\obj\Debug\net10.0\Multicaste.AssemblyInfoInputs.cache
+C:\Users\MANTHAN\source\repos\Multicaste\Multicaste\obj\Debug\net10.0\Multicaste.AssemblyInfo.cs
+C:\Users\MANTHAN\source\repos\Multicaste\Multicaste\obj\Debug\net10.0\Multicaste.csproj.CoreCompileInputs.cache
+C:\Users\MANTHAN\source\repos\Multicaste\Multicaste\obj\Debug\net10.0\Multicaste.dll
+C:\Users\MANTHAN\source\repos\Multicaste\Multicaste\obj\Debug\net10.0\refint\Multicaste.dll
+C:\Users\MANTHAN\source\repos\Multicaste\Multicaste\obj\Debug\net10.0\Multicaste.pdb
+C:\Users\MANTHAN\source\repos\Multicaste\Multicaste\obj\Debug\net10.0\Multicaste.genruntimeconfig.cache
+C:\Users\MANTHAN\source\repos\Multicaste\Multicaste\obj\Debug\net10.0\ref\Multicaste.dll

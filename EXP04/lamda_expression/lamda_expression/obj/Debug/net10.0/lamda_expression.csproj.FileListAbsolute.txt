@@ -1,0 +1,14 @@
+C:\Users\MANTHAN\source\repos\lamda_expression\lamda_expression\bin\Debug\net10.0\lamda_expression.exe
+C:\Users\MANTHAN\source\repos\lamda_expression\lamda_expression\bin\Debug\net10.0\lamda_expression.deps.json
+C:\Users\MANTHAN\source\repos\lamda_expression\lamda_expression\bin\Debug\net10.0\lamda_expression.runtimeconfig.json
+C:\Users\MANTHAN\source\repos\lamda_expression\lamda_expression\bin\Debug\net10.0\lamda_expression.dll
+C:\Users\MANTHAN\source\repos\lamda_expression\lamda_expression\bin\Debug\net10.0\lamda_expression.pdb
+C:\Users\MANTHAN\source\repos\lamda_expression\lamda_expression\obj\Debug\net10.0\lamda_expression.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MANTHAN\source\repos\lamda_expression\lamda_expression\obj\Debug\net10.0\lamda_expression.AssemblyInfoInputs.cache
+C:\Users\MANTHAN\source\repos\lamda_expression\lamda_expression\obj\Debug\net10.0\lamda_expression.AssemblyInfo.cs
+C:\Users\MANTHAN\source\repos\lamda_expression\lamda_expression\obj\Debug\net10.0\lamda_expression.csproj.CoreCompileInputs.cache
+C:\Users\MANTHAN\source\repos\lamda_expression\lamda_expression\obj\Debug\net10.0\lamda_expression.dll
+C:\Users\MANTHAN\source\repos\lamda_expression\lamda_expression\obj\Debug\net10.0\refint\lamda_expression.dll
+C:\Users\MANTHAN\source\repos\lamda_expression\lamda_expression\obj\Debug\net10.0\lamda_expression.pdb
+C:\Users\MANTHAN\source\repos\lamda_expression\lamda_expression\obj\Debug\net10.0\lamda_expression.genruntimeconfig.cache
+C:\Users\MANTHAN\source\repos\lamda_expression\lamda_expression\obj\Debug\net10.0\ref\lamda_expression.dll

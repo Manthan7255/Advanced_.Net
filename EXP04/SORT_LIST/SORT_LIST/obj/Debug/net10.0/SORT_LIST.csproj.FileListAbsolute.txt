@@ -1,0 +1,14 @@
+C:\Users\MANTHAN\source\repos\SORT_LIST\SORT_LIST\bin\Debug\net10.0\SORT_LIST.exe
+C:\Users\MANTHAN\source\repos\SORT_LIST\SORT_LIST\bin\Debug\net10.0\SORT_LIST.deps.json
+C:\Users\MANTHAN\source\repos\SORT_LIST\SORT_LIST\bin\Debug\net10.0\SORT_LIST.runtimeconfig.json
+C:\Users\MANTHAN\source\repos\SORT_LIST\SORT_LIST\bin\Debug\net10.0\SORT_LIST.dll
+C:\Users\MANTHAN\source\repos\SORT_LIST\SORT_LIST\bin\Debug\net10.0\SORT_LIST.pdb
+C:\Users\MANTHAN\source\repos\SORT_LIST\SORT_LIST\obj\Debug\net10.0\SORT_LIST.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MANTHAN\source\repos\SORT_LIST\SORT_LIST\obj\Debug\net10.0\SORT_LIST.AssemblyInfoInputs.cache
+C:\Users\MANTHAN\source\repos\SORT_LIST\SORT_LIST\obj\Debug\net10.0\SORT_LIST.AssemblyInfo.cs
+C:\Users\MANTHAN\source\repos\SORT_LIST\SORT_LIST\obj\Debug\net10.0\SORT_LIST.csproj.CoreCompileInputs.cache
+C:\Users\MANTHAN\source\repos\SORT_LIST\SORT_LIST\obj\Debug\net10.0\SORT_LIST.dll
+C:\Users\MANTHAN\source\repos\SORT_LIST\SORT_LIST\obj\Debug\net10.0\refint\SORT_LIST.dll
+C:\Users\MANTHAN\source\repos\SORT_LIST\SORT_LIST\obj\Debug\net10.0\SORT_LIST.pdb
+C:\Users\MANTHAN\source\repos\SORT_LIST\SORT_LIST\obj\Debug\net10.0\SORT_LIST.genruntimeconfig.cache
+C:\Users\MANTHAN\source\repos\SORT_LIST\SORT_LIST\obj\Debug\net10.0\ref\SORT_LIST.dll
