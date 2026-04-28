@@ -1,0 +1,60 @@
+@model IEnumerable<HotelManagement.Models.Room>
+
+@{
+    ViewData["Title"] = "Rooms";
+}
+
+<div class="card">
+    <div class="card-header">
+        <h2 class="card-title"><i class="fas fa-bed"></i> Hotel Rooms</h2>
+        <a asp-action="Create" class="btn btn-primary">
+            <i class="fas fa-plus"></i> Add New Room
+        </a>
+    </div>
+
+    <div class="table-container">
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Room No</th>
+                    <th>Type</th>
+                    <th>Price/Night</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td><strong>@item.RoomNumber</strong></td>
+                        <td>@item.Type</td>
+                        <td><strong style="color: #34d399;">₹@item.PricePerNight</strong></td>
+                        <td>@item.Description</td>
+                        <td>
+                            @if (item.IsAvailable)
+                            {
+                                <span class="badge badge-success"><i class="fas fa-check"></i> Available</span>
+                            }
+                            else
+                            {
+                                <span class="badge badge-danger"><i class="fas fa-times"></i> Booked</span>
+                            }
+                        </td>
+                        <td>
+                            <div class="actions">
+                                <a asp-action="Edit" asp-route-id="@item.RoomId" class="btn btn-warning btn-sm">
+                                    <i class="fas fa-edit"></i>
+                                </a>
+                                <a asp-action="Delete" asp-route-id="@item.RoomId" class="btn btn-danger btn-sm">
+                                    <i class="fas fa-trash"></i>
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

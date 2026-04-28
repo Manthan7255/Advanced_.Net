@@ -1,0 +1,77 @@
+@model IEnumerable<HotelManagement.Models.Booking>
+
+@{
+    ViewData["Title"] = "Bookings";
+}
+
+<div class="card">
+    <div class="card-header">
+        <h2 class="card-title"><i class="fas fa-calendar-check"></i> All Bookings</h2>
+        <a asp-action="Create" class="btn btn-primary">
+            <i class="fas fa-plus"></i> New Booking
+        </a>
+    </div>
+
+    <div class="table-container">
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Booking ID</th>
+                    <th>Guest</th>
+                    <th>Room</th>
+                    <th>Check In</th>
+                    <th>Check Out</th>
+                    <th>Total</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td><strong>#@item.BookingId</strong></td>
+                        <td><i class="fas fa-user" style="color: #60a5fa; margin-right: 5px;"></i>@item.Guest?.Name</td>
+                        <td>Room @item.Room?.RoomNumber</td>
+                        <td>@item.CheckInDate.ToShortDateString()</td>
+                        <td>@item.CheckOutDate.ToShortDateString()</td>
+                        <td><strong style="color: #34d399;">₹@item.TotalAmount</strong></td>
+                        <td>
+                            @switch (item.Status)
+                            {
+                                case "Confirmed":
+                                    <span class="badge badge-success"><i class="fas fa-check"></i> Confirmed</span>
+                                    break;
+                                case "CheckedIn":
+                                    <span class="badge badge-warning"><i class="fas fa-key"></i> Checked In</span>
+                                    break;
+                                case "CheckedOut":
+                                    <span class="badge" style="background: rgba(100,116,139,0.2); color: #94a3b8;"><i class="fas fa-sign-out-alt"></i> Checked Out</span>
+                                    break;
+                                default:
+                                    <span class="badge badge-danger">@item.Status</span>
+                                    break;
+                            }
+                        </td>
+                        <td>
+                            <div class="actions">
+                                @if (item.Status != "CheckedOut")
+                                {
+                                    <a asp-action="Checkout" asp-route-id="@item.BookingId" class="btn btn-success btn-sm" title="Checkout">
+                                        <i class="fas fa-sign-out-alt"></i>
+                                    </a>
+                                }
+                                <a asp-action="Edit" asp-route-id="@item.BookingId" class="btn btn-warning btn-sm">
+                                    <i class="fas fa-edit"></i>
+                                </a>
+                                <a asp-action="Delete" asp-route-id="@item.BookingId" class="btn btn-danger btn-sm">
+                                    <i class="fas fa-trash"></i>
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,55 @@
+@model HotelManagement.Models.Booking
+
+@{
+    ViewData["Title"] = "Edit Booking";
+}
+
+<div class="card" style="max-width: 600px; margin: 0 auto;">
+    <div class="card-header">
+        <h2 class="card-title"><i class="fas fa-edit"></i> Edit Booking #@Model.BookingId</h2>
+    </div>
+
+    <form asp-action="Edit">
+        <input type="hidden" asp-for="BookingId" />
+        <input type="hidden" asp-for="TotalAmount" />
+        
+        <div class="form-group">
+            <label asp-for="GuestId" class="form-label"><i class="fas fa-user"></i> Guest</label>
+            <select asp-for="GuestId" class="form-control" asp-items="ViewBag.GuestId"></select>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="RoomId" class="form-label"><i class="fas fa-bed"></i> Room</label>
+            <select asp-for="RoomId" class="form-control" asp-items="ViewBag.RoomId"></select>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="CheckInDate" class="form-label"><i class="fas fa-calendar-alt"></i> Check In</label>
+            <input asp-for="CheckInDate" class="form-control" type="date" />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="CheckOutDate" class="form-label"><i class="fas fa-calendar-alt"></i> Check Out</label>
+            <input asp-for="CheckOutDate" class="form-control" type="date" />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Status" class="form-label"><i class="fas fa-info-circle"></i> Status</label>
+            <select asp-for="Status" class="form-control">
+                <option>Confirmed</option>
+                <option>CheckedIn</option>
+                <option>CheckedOut</option>
+                <option>Cancelled</option>
+            </select>
+        </div>
+
+        <div style="display: flex; gap: 1rem; margin-top: 2rem;">
+            <button type="submit" class="btn btn-success">
+                <i class="fas fa-save"></i> Update
+            </button>
+            <a asp-action="Index" class="btn btn-primary" style="background: #475569;">
+                <i class="fas fa-arrow-left"></i> Back
+            </a>
+        </div>
+    </form>
+</div>

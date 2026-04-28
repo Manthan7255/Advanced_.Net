@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="HotelManagement.Models/HotelManagement.Models.csproj" />
+  <Project Path="HotelManagement.Web/HotelManagement.Web.csproj" />
+</Solution>

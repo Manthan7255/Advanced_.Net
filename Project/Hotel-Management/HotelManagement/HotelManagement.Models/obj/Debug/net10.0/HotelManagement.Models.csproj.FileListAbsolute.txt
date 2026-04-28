@@ -1,0 +1,11 @@
+C:\Dot_Net\Project\Hotel-Management\HotelManagement\HotelManagement.Models\bin\Debug\net10.0\HotelManagement.Models.deps.json
+C:\Dot_Net\Project\Hotel-Management\HotelManagement\HotelManagement.Models\bin\Debug\net10.0\HotelManagement.Models.dll
+C:\Dot_Net\Project\Hotel-Management\HotelManagement\HotelManagement.Models\bin\Debug\net10.0\HotelManagement.Models.pdb
+C:\Dot_Net\Project\Hotel-Management\HotelManagement\HotelManagement.Models\obj\Debug\net10.0\HotelManagement.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dot_Net\Project\Hotel-Management\HotelManagement\HotelManagement.Models\obj\Debug\net10.0\HotelManagement.Models.AssemblyInfoInputs.cache
+C:\Dot_Net\Project\Hotel-Management\HotelManagement\HotelManagement.Models\obj\Debug\net10.0\HotelManagement.Models.AssemblyInfo.cs
+C:\Dot_Net\Project\Hotel-Management\HotelManagement\HotelManagement.Models\obj\Debug\net10.0\HotelManagement.Models.csproj.CoreCompileInputs.cache
+C:\Dot_Net\Project\Hotel-Management\HotelManagement\HotelManagement.Models\obj\Debug\net10.0\HotelManagement.Models.dll
+C:\Dot_Net\Project\Hotel-Management\HotelManagement\HotelManagement.Models\obj\Debug\net10.0\refint\HotelManagement.Models.dll
+C:\Dot_Net\Project\Hotel-Management\HotelManagement\HotelManagement.Models\obj\Debug\net10.0\HotelManagement.Models.pdb
+C:\Dot_Net\Project\Hotel-Management\HotelManagement\HotelManagement.Models\obj\Debug\net10.0\ref\HotelManagement.Models.dll

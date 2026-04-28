@@ -1,0 +1,30 @@
+@model HotelManagement.Models.Guest
+
+@{
+    ViewData["Title"] = "Delete Guest";
+}
+
+<div class="card" style="max-width: 500px; margin: 0 auto; text-align: center;">
+    <div style="font-size: 4rem; color: #ef4444; margin-bottom: 1rem;">
+        <i class="fas fa-exclamation-triangle"></i>
+    </div>
+    
+    <h2 class="card-title" style="color: #ef4444;">Delete Guest</h2>
+    <p style="color: #94a3b8; margin: 1rem 0;">Are you sure you want to remove this guest?</p>
+
+    <div style="background: rgba(239, 68, 68, 0.1); border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; text-align: left;">
+        <p><strong style="color: #f87171;">Name:</strong> @Model.Name</p>
+        <p><strong style="color: #f87171;">Email:</strong> @Model.Email</p>
+        <p><strong style="color: #f87171;">Phone:</strong> @Model.Phone</p>
+    </div>
+
+    <form asp-action="Delete" style="display: flex; gap: 1rem; justify-content: center;">
+        <input type="hidden" asp-for="GuestId" />
+        <button type="submit" class="btn btn-danger">
+            <i class="fas fa-trash"></i> Yes, Delete
+        </button>
+        <a asp-action="Index" class="btn btn-primary" style="background: #475569;">
+            <i class="fas fa-times"></i> Cancel
+        </a>
+    </form>
+</div>

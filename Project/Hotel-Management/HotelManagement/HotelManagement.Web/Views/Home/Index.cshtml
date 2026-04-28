@@ -1,0 +1,57 @@
+﻿@model HotelManagement.Models.HomeStats
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="hero">
+    <h1><i class="fas fa-hotel"></i> Hotel Management System</h1>
+    <p>Manage rooms, guests, and bookings with elegance and efficiency</p>
+    <div class="hero-buttons">
+        <a asp-controller="Rooms" asp-action="Index" class="btn btn-primary">
+            <i class="fas fa-bed"></i> Manage Rooms
+        </a>
+        <a asp-controller="Bookings" asp-action="Index" class="btn btn-success">
+            <i class="fas fa-calendar-check"></i> View Bookings
+        </a>
+    </div>
+</div>
+
+<div class="stats-grid">
+    <div class="stat-card">
+        <div class="stat-icon blue">
+            <i class="fas fa-door-open"></i>
+        </div>
+        <div class="stat-info">
+            <h3>@Model.TotalRooms</h3>
+            <p>Total Rooms</p>
+        </div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-icon green">
+            <i class="fas fa-check-circle"></i>
+        </div>
+        <div class="stat-info">
+            <h3>@Model.AvailableRooms</h3>
+            <p>Available</p>
+        </div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-icon orange">
+            <i class="fas fa-users"></i>
+        </div>
+        <div class="stat-info">
+            <h3>@Model.TotalGuests</h3>
+            <p>Total Guests</p>
+        </div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-icon purple">
+            <i class="fas fa-calendar-check"></i>
+        </div>
+        <div class="stat-info">
+            <h3>@Model.ActiveBookings</h3>
+            <p>Active Bookings</p>
+        </div>
+    </div>
+</div>

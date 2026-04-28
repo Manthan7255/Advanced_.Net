@@ -1,0 +1,57 @@
+@model HotelManagement.Models.Room
+
+@{
+    ViewData["Title"] = "Add Room";
+}
+
+<div class="card" style="max-width: 600px; margin: 0 auto;">
+    <div class="card-header">
+        <h2 class="card-title"><i class="fas fa-plus-circle"></i> Add New Room</h2>
+    </div>
+
+    <form asp-action="Create">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        
+        <div class="form-group">
+            <label asp-for="RoomNumber" class="form-label"><i class="fas fa-door-open"></i> Room Number</label>
+            <input asp-for="RoomNumber" class="form-control" placeholder="e.g. 101" />
+            <span asp-validation-for="RoomNumber" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Type" class="form-label"><i class="fas fa-tag"></i> Room Type</label>
+            <select asp-for="Type" class="form-control">
+                <option value="">Select Type</option>
+                <option>Single</option>
+                <option>Double</option>
+                <option>Suite</option>
+                <option>Deluxe</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="PricePerNight" class="form-label"><i class="fas fa-rupee-sign"></i> Price Per Night</label>
+            <input asp-for="PricePerNight" class="form-control" placeholder="e.g. 2500" />
+            <span asp-validation-for="PricePerNight" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Description" class="form-label"><i class="fas fa-align-left"></i> Description</label>
+            <textarea asp-for="Description" class="form-control" rows="3" placeholder="Room description..."></textarea>
+        </div>
+
+        <div class="form-group" style="display: flex; align-items: center; gap: 10px;">
+            <input asp-for="IsAvailable" type="checkbox" style="width: 20px; height: 20px; cursor: pointer;" />
+            <label asp-for="IsAvailable" style="margin: 0; cursor: pointer;">Room is Available</label>
+        </div>
+
+        <div style="display: flex; gap: 1rem; margin-top: 2rem;">
+            <button type="submit" class="btn btn-success">
+                <i class="fas fa-save"></i> Save Room
+            </button>
+            <a asp-action="Index" class="btn btn-primary" style="background: #475569;">
+                <i class="fas fa-arrow-left"></i> Back to List
+            </a>
+        </div>
+    </form>
+</div>

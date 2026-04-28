@@ -1,0 +1,48 @@
+@model HotelManagement.Models.Booking
+
+@{
+    ViewData["Title"] = "New Booking";
+}
+
+<div class="card" style="max-width: 600px; margin: 0 auto;">
+    <div class="card-header">
+        <h2 class="card-title"><i class="fas fa-calendar-plus"></i> Create New Booking</h2>
+    </div>
+
+    <form asp-action="Create">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        
+        <div class="form-group">
+            <label asp-for="GuestId" class="form-label"><i class="fas fa-user"></i> Select Guest</label>
+            <select asp-for="GuestId" class="form-control" asp-items="ViewBag.GuestId">
+                <option value="">-- Select Guest --</option>
+            </select>
+            <span asp-validation-for="GuestId" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="RoomId" class="form-label"><i class="fas fa-bed"></i> Select Room</label>
+            <select asp-for="RoomId" class="form-control" asp-items="ViewBag.RoomId">
+                <option value="">-- Select Available Room --</option>
+            </select>
+            <span asp-validation-for="RoomId" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="CheckInDate" class="form-label"><i class="fas fa-calendar-alt"></i> Check In Date</label>
+            <input asp-for="CheckInDate" class="form-control" type="date" />
+            <span asp-validation-for="CheckInDate" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="CheckOutDate" class="form-label"><i class="fas fa-calendar-alt"></i> Check Out Date</label>
+            <input asp-for="CheckOutDate" class="form-control" type="date" />
+            <span asp-validation-for="CheckOutDate" class="text-danger"></span>
+        </div>
+
+        <div style="display: flex; gap: 1rem; margin-top: 2rem;">
+            <button type="submit" class="btn btn-success">
+                <i class="fas fa-save"></i> Create Booking</button>
+        </div>
+    </form>
+</div>
